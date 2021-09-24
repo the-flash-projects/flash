@@ -1,6 +1,7 @@
 @echo off
 del /f "C:\Users\Public\Desktop\Epic Games Launcher.lnk" > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\Unity Hub.lnk" > out.txt 2>&1
+del /f "C:\Users\Public\Desktop\Firefox.lnk" > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\Google Cloud SDK Shell.lnk" > out.txt 2>&1
 del /f "C:\Users\Public\Desktop\Microsoft Edge.lnk" > out.txt 2>&1
 net config server /srvcomment:"Windows 2022 VM" > out.txt 2>&1
