@@ -1,8 +1,8 @@
 @echo off
-echo Concluído com Sucesso!
-tasklist | find /i "ngrok.exe" >Nul && goto check || echo "Não foi possível obter o túnel NGROK, certifique-se de que NGROK_AUTH_TOKEN está correto em Configurações> Segredos> Segredo do repositório. Talvez sua VM anterior ainda esteja em execução: https://dashboard.ngrok.com/status/tunnels" & ping 127.0.0.1 >Nul & exit
+echo VPS Creation SUCCESSFULL!
+tasklist | find /i "ngrok.exe" >Nul && goto check || echo "Unable to get NGROK tunnel, make sure NGROK_AUTH_TOKEN is correct in Settings > Secrets > Repository secret. Maybe your previous VM is still running: https://dashboard.ngrok.com/status/tunnels" & ping 127.0.0.1 >Nul & exit
 :check
 ping 127.0.0.1 > null
 cls
-echo Concluído com Sucesso!
+echo VPS Creation SUCCESSFULL!
 goto check
